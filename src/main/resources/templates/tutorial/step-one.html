@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Step One</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/img/rock.jpg}" width=50% height=50%/>
+<h1>This is step one.</h1>
+<h3>Step 1 - Pick something about your professional background to establish credibility</h3>
+<p>
+    You don’t have time to include a summary of your resume or even the chronology. Besides, that’s boring. Instead, focus on a specific professional accomplishment that puts you at the right level (e.g., if you’re in management, don’t mention an individual contributor role). Pick something that is relevant to where you want to work. For example, you could mention:
+</p>
+<ol>
+    <li>Your current company and role. This is not necessarily your title, if your title is generic (e.g., VP, Director) or full of jargon (e.g., names a department no one outside your company would recognize)</li>
+    <li>What you are working on, learning or researching. If you are in-between jobs or consulting but looking to go in-house, you still want to focus on being active, rather than saying you’re unemployed or in transition. Remember too that even though you are working on your job search, you don’t want to mention that – instead talk about the companies you’re researching or things you’re hearing about the market</li>
+    <li>Industry expertise or other special knowledge. Rather than a role, you talk about your overall industry of other expertise, including how many years you’ve been in this area or a cutting-edge fact that leaves no doubt that you’re current in your field</li>
+    <li>The arc of your career – e.g., several employers, industries or roles. This is useful if you’re in-between roles but want to highlight that you have existing experience. Even if you’re currently employed, you may decide that your overall experience is more interesting than any one role</li>
+    <li>Types of clients you serve and results you achieve. Many jobs, especially as you get more senior, have multiple responsibilities, but by talking about who you serve and what the results are, you hone in on the value you deliver, rather than how you do it or what your day-to-day is like</li>
+    <li>Sample recent project or client story. By drilling down to one example, you showcase your expertise and experience while also telling a story. If you have a particularly interesting before/ after result to share, or a hero’s journey, this could be a good way to package your credibility</li>
+</ol>
+<p>
+Try all six of these formats, and choose the most powerful ones, or keep them all and rotate them depending on who you’re talking to and what you want to highlight.
+</p>
+<h4><a th:href="@{/tutorial/step-two}">Step Two</a></h4>
+<p>
+    Content taken from <a href="https://www.forbes.com/sites/carolinecenizalevine/2020/04/27/how-to-create-a-networking-pitch-in-three-easy-steps/?sh=19f96ec4b803">here.</a>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

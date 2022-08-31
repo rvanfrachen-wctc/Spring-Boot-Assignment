@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Step Two</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/img/rock.jpg}" width=50% height=50%/>
+<h1>This is step two.</h1>
+<h3>Step 2 - Include something personal to build rapport</h3>
+<p>
+    You don’t just want to include professional details in your pitch because it’s boring. Everyone focuses on the professional, and you need to stand out to be remembered. Including something personal also helps a genuine relationship to build, and the pitch is just the start of what is hopefully a long-term genuine relationship. Some personal tidbits that are still appropriate for professional networking include:
+</p>
+<ol>
+    <li>How you became interested in your line of work. This is a natural transition from establishing your credibility – you’re not only knowledgeable, but enthusiastic!</li>
+    <li>Life story – e.g., where you grew up, where you went to school, earlier career if different from now</li>
+    <li>Passion or hobby – these should be pursuits that you invest in, not just dabble in because superficial effort doesn’t make a memorable impression</li>
+    <li>Community or non-profit involvement – if you have any leadership experience, that adds to your professional credibility as well</li>
+    <li>Recent book you read, trip you took or event you attended – similar to the passion or hobby, this isn’t just about being well-rounded but also being interesting and dedicated, so pick accordingly</li>
+    <li>Connection to the person you are talking to or circumstances that put you together – if you’re attending a virtual summit on AI, and your work isn’t obviously related to AI, then you could talk about what prompted you to attend</li>
+</ol>
+<h4><a th:href="@{/tutorial/step-three}">Step Three</a></h4>
+<p>
+    Content taken from <a href="https://www.forbes.com/sites/carolinecenizalevine/2020/04/27/how-to-create-a-networking-pitch-in-three-easy-steps/?sh=19f96ec4b803">here.</a>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

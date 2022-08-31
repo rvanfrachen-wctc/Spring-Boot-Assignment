@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/img/rock.jpg}" width=50% height=50%/>
+<h1>This is the Home page.</h1>
+<h3>Tutorial: How To Create A Networking Pitch In Three Easy Steps</h3>
+<h4><a th:href="@{/tutorial/step-one}">Step One</a></h4>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
